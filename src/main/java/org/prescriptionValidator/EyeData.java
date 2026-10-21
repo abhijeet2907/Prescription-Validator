@@ -7,9 +7,9 @@ public class EyeData {
 
     public EyeData() {}
 
-    public EyeData(Double cyl, Double sph, Integer axis) {
-        this.cyl = cyl;
+    public EyeData(Double sph, Double cyl, Integer axis) {
         this.sph = sph;
+        this.cyl = cyl;
         this.axis = axis;
     }
 
